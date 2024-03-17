@@ -42,7 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #355dd6;;
+    border: 2px solid #1b3ca0;;
     border-radius: 20px;
 }
 
@@ -64,8 +64,8 @@
 }
 
 .button:hover{
-    background-color: brown;
-    color:white;
+    background-color: #274bb8;
+    color:black;
 }
 
 .messageConteiner{

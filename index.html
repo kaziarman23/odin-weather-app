@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <title>Weather App</title>
-</head>
-<body>
-    <div class="conteiner">
-        <div class="card">
-            <h1>Weather App</h1>
-            <div class="inputConteiner">
-                <div class="inputContent">
-                    <input type="text" class="input" placeholder="Enter your city name">
-                    <button type="button" class="button">Search</button>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style/style.css" />
+        <title>Weather App</title>
+    </head>
+    <body>
+        <div class="conteiner">
+            <div class="card">
+                <h1>Weather App</h1>
+                <div class="inputConteiner">
+                    <div class="inputContent">
+                        <input
+                            type="text"
+                            class="input"
+                            placeholder="Enter your city name"
+                        />
+                        <button type="button" class="button">Search</button>
+                    </div>
                 </div>
-            </div>
-            <div class="messageConteiner">
-                <p>Invalide Name</p>
-            </div>
-            <div class="details">
-                <div class="imgConteiner">
-                    <img src="#" alt="gifImg">
+                <div class="messageConteiner">
+                    <p>Invalide Name</p>
                 </div>
-                <div class="temp">
-                    <h1>20</h1>
-                </div>
-                <div class="footer">
-                   <div class="colOne">
-                        <img src="images/water.png" alt="humidityImg">
-                        <p>Humidity:<span class="humiditySpan" ></span></p>
-                   </div>
-                   <div class="colTwo">
-                        <img src="images/air.png" alt="windSpeedImg">
-                        <p>Wind Speed:<span class="windSpeedSpan"></span></p>
-                   </div>
+                <div class="details">
+                    <div class="imgConteiner">
+                        <img src="#" />
+                    </div>
+                    <div class="temp">
+                        <h1>20</h1>
+                    </div>
+                    <div class="footer">
+                        <div class="colOne">
+                            <img src="images/water.png" alt="humidityImg" />
+                            <span class="humiditySpan"></span>
+                            <p>Humidity</p>
+                        </div>
+                        <div class="colTwo">
+                            <img src="images/air.png" alt="windSpeedImg" />
+                            <span class="windSpeedSpan"></span>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <script src="js/index.js"></script>
-</body>
+        <script src="js/index.js"></script>
+    </body>
 </html>
