@@ -6,7 +6,7 @@
 }
 
 .conteiner{
-    background-color: black;
+    background-color: #3553af;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -84,8 +84,8 @@
 }
 
 .imgConteiner img{
-    width: 150px;
-    height: 70px;
+    width: 90px;
+    height: 65px;
 }
 
 .temp h1{
@@ -104,4 +104,17 @@
 .footer img{
     width: 30px;
     height: 30px;
+    display: inline;
+}
+
+.humidity{
+    text-align: end;
+    display: inline;
+    font-size: 30px;
+}
+
+.windSpeed{
+    text-align: end;
+    display: inline;
+    font-size: 30px;
 }
